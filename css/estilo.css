@@ -1,0 +1,49 @@
+body{
+	background-color: rgb(244, 244, 244);
+}
+#menu-topo{
+	position:relative;
+	background-color:#fff;
+}
+#menu-topo h3{
+	padding-top: 10 px;
+	float:left;
+}
+#menu-topo li {
+	list-style: none;
+	display: inline;
+	padding: 15px;
+	border-left: solid 1px;
+}
+
+#menu-topo li:nth-child(7) {
+	position:absolute;
+	right:50px;
+	border-left: 1px solid;
+}
+
+#menu-topo li:nth-child(8) {
+	position:absolute;
+	right:0px;
+}
+
+#menu-topo li:first-child{
+	border-left: none;
+}
+
+ aside{
+	float: left;
+	width: 400px;
+}
+.post-dir{
+	float: left;
+	padding: 20px;
+}
+.content
+{
+	margin-left: 500px;
+}
+.rodape{
+	margin-left: 500px;
+	
+}
